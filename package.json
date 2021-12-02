@@ -1,0 +1,33 @@
+{
+  "name": "ecommerce_backend",
+  "version": "1.0.0",
+  "description": "API server for our e-commerce project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/priyanshiisingh/ecommerce-backend.git"
+  },
+  "author": "Priyanshi Sachan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/priyanshiisingh/ecommerce-backend/issues"
+  },
+  "homepage": "https://github.com/priyanshiisingh/ecommerce-backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.14"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/node": "^7.16.0",
+    "@babel/plugin-transform-runtime": "^7.16.4",
+    "@babel/preset-env": "^7.16.4",
+    "nodemon": "^2.0.15"
+  }
+}
