@@ -25,7 +25,7 @@ console.log("hi prii, hii");
 
 app.get("/", (req, res) => {
   res.send(
-    `server listening to PORT ${PORT} (Deployed via workflow, SECRET ADDED)`
+    `server listening to PORT ${PORT} (Deployed via workflow, secret added)`
   );
 });
 
