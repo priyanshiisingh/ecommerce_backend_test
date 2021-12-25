@@ -27,6 +27,10 @@ app.use(_express["default"].json()); //route to handle auth request
 app.use("/api/v1/auth", _authRoutes["default"]);
 app.use("/api/v1/category", _categoryRoutes["default"]);
 app.use("/api/v1/product", _productsRoutes["default"]);
+console.log("hi");
+app.get("/", function (req, res) {
+  res.send("server listening to PORT ".concat(PORT));
+});
 app.listen(PORT, function (req, res) {
   console.log("Server listening to PORT ".concat(PORT));
 });
