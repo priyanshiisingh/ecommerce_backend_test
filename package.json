@@ -4,7 +4,9 @@
     "description": "API server for our e-commerce project",
     "main": "server.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "dev": "nodemon -w src --exec \"babel-node src \"",
+        "build": "babel src --out-dir dist",
+        "start": "npm install && npm run build && node dist/index.js"
     },
     "repository": {
         "type": "git",
