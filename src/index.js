@@ -24,7 +24,7 @@ app.use("/api/v1/product", productsRoutes);
 console.log("hi prii, hii");
 
 app.get("/", (req, res) => {
-  res.send(`server listening to PORT ${PORT} (Deployed from workflow)`);
+  res.send(`server listening to PORT ${PORT} (Deployed via workflow)`);
 });
 
 app.listen(PORT, (req, res) => {
