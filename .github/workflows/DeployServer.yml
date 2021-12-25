@@ -13,5 +13,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: text workflow
+      - name: test workflow
         run: echo "Yay workflow is running"
