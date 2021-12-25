@@ -21,7 +21,7 @@ app.use("/api/v1/auth", authRoutes);
 app.use("/api/v1/category", categoryRoutes);
 app.use("/api/v1/product", productsRoutes);
 
-console.log("hi");
+console.log("hi prii");
 
 app.get("/", (req, res) => {
   res.send(`server listening to PORT ${PORT}`);
