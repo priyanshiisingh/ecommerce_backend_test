@@ -80,7 +80,7 @@ isProtected : false (admin)
 router.post("/signup", (0, _expressValidator.body)("firstName").isLength({
   min: 5
 }), (0, _expressValidator.body)("email").isEmail(), (0, _expressValidator.body)("password").isLength({
-  min: 8
+  min: 5
 }), /*#__PURE__*/function () {
   var _ref2 = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee2(req, res) {
     var _validationResult, errors, _req$body, firstName, lastName, email, password, salt, hashedPassword, user;
